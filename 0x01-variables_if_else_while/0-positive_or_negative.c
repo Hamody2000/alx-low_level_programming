@@ -5,10 +5,10 @@
 /**
  *main -Entry level of the program
  *
- *Description: This function generates a random integer, prints the number, and thenclassifies it as positive, negative, or zero.
+ *Description: A function prints the number, and thenclassifies it as positive, negative, or zero.
  *
  * Return: Always 0 (Success)
- * */
+ */
 
 int main(void)
 {
