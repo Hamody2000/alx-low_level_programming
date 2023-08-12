@@ -11,6 +11,7 @@
 int main(void)
 {
 	char letter;
+	char uppercase;
 
 	letter = 'a';
 	uppercase = 'A';
