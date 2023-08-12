@@ -12,6 +12,7 @@ int main(void)
 {
 	char letter;
 	char numberr;
+
 	letter = '0';
 	numberr = 'a';
 
