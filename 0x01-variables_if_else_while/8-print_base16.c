@@ -11,16 +11,21 @@
 int main(void)
 {
 	char letter;
-	letter = 'a';
+	char numberr;
+	letter = '0';
+	numberr = 'a';
 
-	while (letter <= 'z')
+	while (letter <= '9')
 	{
-		if (letter != 'q' && letter != 'e')
-		{
-			putchar(letter);
-		}
+		putchar(letter);
 		letter++;
 	}
+	while (numberr <= 'f')
+	{
+		putchar(numberr);
+		numberr++;
+	}
 	putchar('\n');
+
 	return (0);
 }

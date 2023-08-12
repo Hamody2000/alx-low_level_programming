@@ -10,17 +10,12 @@
 
 int main(void)
 {
-	char letter;
-	letter = 'a';
-
-	while (letter <= 'z')
+	int numberr = 0;
+	while (numberr <= 10)
 	{
-		if (letter != 'q' && letter != 'e')
-		{
-			putchar(letter);
-		}
-		letter++;
+		printf("%d", numberr);
+		numberr++;
 	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
