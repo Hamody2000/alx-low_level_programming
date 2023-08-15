@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - A function to check if the input is a character of not 
+ * _isalpha - A function to check if the input is a character of not.
  *
  * @c: hte character to be checked
  *
@@ -10,7 +10,7 @@
 
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <=122) || (c >=65 && c <=90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
