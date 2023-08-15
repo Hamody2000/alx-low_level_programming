@@ -9,14 +9,15 @@ void times_table(void)
 	int i;
 	int num;
 	int res;
+	
 	i = 0;
 
 	while (i < 10)
 	{
-		for (num = 0; num <10; num++)
+		for (num = 0; num < 10; num++)
 		{
 			res = num * i;
-			_putchar(res + '0');
+			_putchar(res);
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
