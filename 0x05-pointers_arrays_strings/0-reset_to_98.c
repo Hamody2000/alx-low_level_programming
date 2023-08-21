@@ -2,7 +2,7 @@
 
 /**
 * reset_to_98 - a function check for upper letter
-* @*n: a character to be checked
+* @n: a character to be checked
 * Return: 0 if not amd 1 if upper
 */
 
