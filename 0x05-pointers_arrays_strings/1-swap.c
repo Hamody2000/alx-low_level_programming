@@ -7,7 +7,7 @@
 * Return: 0 if not amd 1 if upper
 */
 
-swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int val = *a;
 
