@@ -19,9 +19,9 @@ void print_rev(char *s)
 
 	while (i < lenght)
 	{
-		temp = *s[lenght];
-		*s[lenght] = *s[i];
-		*s[i] = temp;
+		temp = s[lenght];
+		s[lenght] = s[i];
+		s[i] = temp;
 		i++;
 		lenght--;
 	}
