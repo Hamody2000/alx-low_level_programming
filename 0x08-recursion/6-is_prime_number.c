@@ -26,7 +26,7 @@ int check_prime(int n, int numb)
 	if (numb >= n && n > 1)
 		return (1);
 	else if (n % numb == 0 || n <= 1)
-		return(0);
+		return (0);
 	else
 		return (check_prime(n, numb + 1));
 }
