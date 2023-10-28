@@ -10,7 +10,7 @@
 
 int main(int argc, char const *argv[])
 {
-	int sum;
+	int sum = 0;
 	char *x;
 
 	while (--argc)
