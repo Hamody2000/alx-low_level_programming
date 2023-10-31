@@ -13,12 +13,12 @@ char *create_array(unsigned int size, char c)
 {
 	char *ptr = malloc(size);
 
-	if (ptr == 0)
+	if (ptr == 0 || size = 0)
 	{
 		printf("failed to allocate memory");
 		return (0);
 	}
-	while (size > 0)
+	while (size >= 0)
 	{
 		ptr[size] = c;
 		size--;
