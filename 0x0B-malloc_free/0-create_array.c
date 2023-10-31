@@ -15,7 +15,8 @@ char *create_array(unsigned int size, char c)
 
 	if (ptr == 0)
 	{
-		_putchar("failed to allocate memory");
+		char *hamo = "failed to allocate memory";
+		_putchar("%s\n", hamo);
 		return (0);
 	}
 	while (size > 0)
