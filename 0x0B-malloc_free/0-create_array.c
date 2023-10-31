@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 		printf("failed to allocate memory");
 		return (0);
 	}
-	while (size >= 0)
+	while (size == 0)
 	{
 		ptr[size] = c;
 		size--;
